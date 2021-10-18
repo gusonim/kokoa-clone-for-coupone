@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <div class="recommended-friends__column">
+          <span class="recommended-friends__title">Recommended Friends</span>
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </div>
+
+
+        <div class="recommended-friends__freind">
+          <div> 
+            <img src="https://w.namu.la/s/5c270729b514b44d397f0b15fe780f28abc0088deae3a1bcbd2442981c0e614bba28387b92b343dc597b6a0eb07872d6a2452a5f8514dad02189fd58935320edba2f763b46e8d5f70525c06ef78a9e79ea10ce31653a499a8437eea21a1b7001b8ca82aa4c758a3099140f845612d145" alt="">
+            <span>에스파</span> 
+          </div>                       
+          <i class="fa fa-align-justify" aria-hidden="true"></i>
+        </div>
+        <div class="recommended-friends__freind">
+        <div> 
+            <img src="https://w.namu.la/s/a9f78c7e0464ff6baa7df00a888096853bb3ab0992c0cb199c9d2b5aa74f71cc74e23155a314b8b2fad2ac1ee809c9c703a8d1252bf12c14368fa1e3c9c9d64cd57a806326da1f934d1ec565d671e42d92a1354b8408a3cbac155242c19dbe3579ddc4bb50698a1e554cdffacd234f45" alt="">
+            <span>BlackPink</span> 
+          </div>                       
+          <i class="fa fa-align-justify" aria-hidden="true"></i>
+        </div>
+        <div class="recommended-friends__freind">
+          <div> 
+            <img src="https://w.namu.la/s/599e7c470f08546414e43cb607433bce11a3aa1676e5f6591c8ad1f2f055a3aba6a4dd117fbd30fb0d59a4e732f570a32bd314f76c17c56b6f7ebffc373a502c31bdba6c1f8c0689f56bdbebc2026a74832d4819d2156912d44b648681d931168e375871a681e0dc2521ebc7e812f9f4" alt="">
+            <span>itzy</span> 
+          </div>                       
+          <i class="fa fa-align-justify" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img src="screenshot/iu.jpeg" />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://images.chosun.com/resizer/iksb_GxiHITk5APwQXOhvaiKYTc=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/MEDK65WNXBHK5OR7CXLNJXPMZA.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
